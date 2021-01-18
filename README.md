@@ -3,6 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+This application allows a user to search for and save their favorite films they feel should be up for nomination. When they've selected 5 nominees they're notified they're finished.
 
 In the project directory, you can run:
 
