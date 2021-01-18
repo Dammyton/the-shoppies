@@ -37,7 +37,7 @@ const Home = () => {
 
         setPageLoader(true);
 
-        fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=${title}`)
+        fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${title}`)
             .then(res => res.json())
             .then(response => {
                 setPageLoader(false);
